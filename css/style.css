@@ -1,0 +1,161 @@
+
+@font-face {
+	font-family: Nexa;
+	src: url(../fonts/NexaRustHandmade.otf) format('opentype') ;
+
+}
+
+
+body {
+	background-color: yellow;
+	background-image: url(../image/pic1728832.jpg);
+	color: #ece4fd;
+	font-family: Nexa;
+	margin-right:0;
+	margin-left:0;
+}
+
+h1 {
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+	width: 18%;
+	background-color: blue;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+
+
+a.myLinks {
+color: #fff;  
+text-decoration: none;
+
+
+}
+
+a:hover { 
+color: #f6495a;  
+
+
+
+}
+
+.floatLeft{
+	float: left;
+	margin:0;
+	padding: 0;
+	border: 3px solid #f81126;
+}
+.floatRight{
+	float: right;
+	margin:0;
+	padding: 0;
+	border: 3px solid #f81126;
+}
+.paraDiv{
+margin-left: 100px;
+margin-right: 30px;
+	/* margin-right: 250px; */
+}
+
+.pFloat{
+	float: left;
+	
+}
+
+.clearIt {
+	clear both;
+}
+
+ h2, p {
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+h1 {
+
+   font-family: Nexa,  Helvetica, Sans-Serif;
+   font-size 300px;
+   text-shadow: 4px 4px red;
+   text-align: center;
+   background-color: #ff9900;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   border-bottom: 4px solid red;
+   
+}
+
+h2 {
+
+	font-family: Nexa,  Helvetica, Sans-Serif;
+   font-size 2em;
+   text-align: center;
+    font-size 50px;
+}
+
+p {
+
+	font-size: 2em;
+	padding:0;
+	margin-right: 3% ;
+	margin-left: 3%;
+	background-color:;
+
+
+
+
+
+}
+
+.transparent_b {
+
+	background-color: rgba(219,228,245,0.9);
+	padding: 5px;
+
+	margin-left: 150px;
+	margin-right: 150px;
+
+}
+
+.dropdown{
+	position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+
+}
+
+.dropdown-content{
+
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	width: 90%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.dropdown-content a {
+	background-color: wheat;
+	color: #b90000;
+	padding: 10px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
